@@ -20,6 +20,8 @@ public class PalindromeNumber2 {
 
 	        sc.close();
 	}
+	
+	/*------------------------------------------------------------------*/
 
 	/*
 	 * public static boolean isPalindrome(int number) {
@@ -46,6 +48,8 @@ public class PalindromeNumber2 {
 	 * 
 	 * }
 	 */
+	
+	/*-----------------------------------------------------------------------*/
 	
 	/*
 	 * public static boolean isPalindrome(int number)
@@ -78,6 +82,8 @@ public class PalindromeNumber2 {
 	 *  }
 	 */
 	
+	/*----------------------------------------------------------------*/
+	
 	/*
 	 * public static boolean isPalindrome(int number)
 	 * 
@@ -97,6 +103,8 @@ public class PalindromeNumber2 {
 	 *   return reverseNumber == number;
 	 *  }
 	 */
+	
+	/*----------------------------------------------------------------------*/
 	
 	/*
 	 * public static boolean isPalindrome(int number)
@@ -124,14 +132,13 @@ public class PalindromeNumber2 {
 	 *  }
 	 */
 	
-	public static boolean isPalindrome(int number){
-	    int reverseNumber = 0;
-	    // int i = number;
-	    // while (i != 0){
-	    for (int i = number; i != 0; i /= 10){
-	        reverseNumber = reverseNumber * 10 + i % 10;
-	        // i /= 10;
-	    }
-	    return reverseNumber == number;
+	/*---------------------------------------------------------------*/
+	
+	public static boolean isPalindrome(int number) {
+		int reverseNumber = 0;
+		for (int i = number; i != 0; i /= 10) {
+			reverseNumber = reverseNumber * 10 + i % 10;
+		}
+		return reverseNumber == number;
 	}
 }
