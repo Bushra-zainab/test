@@ -1,4 +1,4 @@
-package Looping;
+package looping;
 
 public class FactorialByDecre {
 

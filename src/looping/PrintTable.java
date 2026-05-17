@@ -1,4 +1,4 @@
-package Looping;
+package looping;
 
 public class PrintTable {
 	static int a = 2;
